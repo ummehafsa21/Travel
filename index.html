@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link href="https://fon.googleapis.com/css?family=DM+Serif+Display:400,400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css?fbclid=IwAR2A0GBp5HaYYCvLv41EaPaUlBqyHNsobIHHrmWITQZ2vRG3PlY1Rpf8cWA">
+    
+</head>
+<body>
+        <div class="header-area">
+                <div class="header-text">
+                    <h1>Let's travel the world</h1>
+                    <p>Give TRES~T a try by clicking the button below.<br> Happy travelling :)</p>
+                    <a href="" class="btn btn-info">Contact</a>
+                </div>
+              </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Events</a></li>
+                    <li><a href="#feature">Travel Diaries</a></li>
+                    <li><a href="#testimonial">Feedback</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="about-area overflow" id="about">
+                <h2>About Us</h2>
+                <div class="about-Us">
+                    <div class="about-image">
+                        <img src="images/2.jpg" alt="">
+                    </div>
+                    <div class="about-details">
+                      <h3>We offer best travel plans for your happy and comfortable travel since 2017.We plan best trip for you according to your desire. IT will cost low with high facilities in hotels, vehicals and food. Make yor trip happy with us :).</h3>
+                      <a href=" " class="btn btn-details">Details</a>
+                    </div>
+          
+                </div>
+            </div>
+            <div class="footer-area" id="contact">
+              <div class="footer">
+                <a href="https://www.facebook.com/profile.php?id=100008540771777" target="_blank"> <i class="fab facebook fa-facebook-f"></i></a>
+                <a href=""><i class="fab twitter fa-twitter"></i></a>
+                <a href=""></a><i class="fab linkedin fa-linkedin-in"></i></a>
+                <a href=""></a><i class="fab instagram fa-instagram"></i></a>
+                <a href=""> <i class="fab printerest fa-pinterest-p"></i></a>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <p>2020 copyright from @tres~t.com </p>
+            </div>
+
+            <script src="js/jquery-3.4.1.min.js"></script>
+            <script src="js/owl.carousel.js"></script>
+            <script src="js/jquery.easypiechart.js"></script>
+            <script>
+               $(function() {
+            $('.chart').easyPieChart({
+              size: 180,
+              barColor: '#d43076',
+              scaleColor: false,
+              lineWidth: 15,
+              trackColor: '#ccc',
+              lineCap: 'circle',
+              animate: 5000
+            });
+          });
+              $('.testimonial-carousel').owlCarousel({
+               loop:true,
+               margin:10,
+               autoplay:true,
+               responsive:{
+                   0:{
+                       items:1
+                   },
+                   600:{
+                       items:2
+                   },
+                   1000:{
+                       items:3
+                   }
+               }
+           })
+             </script>
+          </body>
+          </html>
